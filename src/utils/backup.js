@@ -25,8 +25,8 @@ export const hacerBackup = async () => {
       },
       dumpToFile: backupFile,
     });
-    console.log(`✅ Backup realizado correctamente: ${backupFile}`);
+    console.log(` Backup realizado correctamente: ${backupFile}`);
   } catch (err) {
-    console.error("❌ Error al generar el backup:", err);
+    console.error(" Error al generar el backup:", err);
   }
 };
