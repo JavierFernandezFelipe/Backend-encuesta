@@ -1,7 +1,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import { conectarBD, sequelize } from "./config/db.js";
-import { Usuario } from "./models/Usuario.js";
+import { UsuarioJSON as Usuario } from "./models/UsuarioJSON.js";
 import { hacerBackup } from "./utils/backup.js";
 
 dotenv.config();
